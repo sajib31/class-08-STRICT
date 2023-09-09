@@ -1,0 +1,425 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6,ul, li, a, p{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+header{
+    
+background: #f6f9f9;
+    
+padding: 15px 0;
+}
+.header_wrapper{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+}
+.logo{
+
+width: 20%;
+}
+.logo img{
+    
+}
+nav{
+
+width: 50%;
+}
+nav ul{
+    
+list-style: none;
+    
+display: flex;
+    
+justify-content: flex-end;
+}
+nav ul li{
+    
+}
+nav ul li a{
+    
+text-decoration: none;
+    
+color: #333;
+    
+text-transform: uppercase;
+    
+margin-left: 50px;
+}
+.banner{
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+    position: relative;
+}
+.banner_content{
+
+position: absolute;
+
+width: 400px;
+
+top: 50%;
+
+left: 50%;
+
+transform: translate(-50%, -50%);
+
+text-align: center;
+}
+.banner_content h1{
+
+color: #fff;
+
+font-size: 90px;
+
+font-weight: 500;
+
+line-height: 100px;
+}
+.banner_content span{
+
+display: block;
+
+height: 2px;
+
+width: 100%;
+
+background: #15a4fa;
+}
+.banner_content p{
+
+color: #fff;
+
+margin: 30px 0;
+}
+.banner_content button{
+
+background: transparent;
+
+border: none;
+
+color: #fff;
+
+border: 1px solid #15a4fa;
+
+padding: 10px 20px;
+
+font-size: 15px;
+
+border-radius: 3px;
+
+cursor: pointer;
+transition: .4s all ease-in-out;
+}
+.banner_content button:hover{
+    background:#15a4fa;
+}
+.simple_design{
+
+background: #f9f9f9;
+
+padding: 50px 0;
+}
+.simple_wrapper{
+
+width: 80%;
+
+margin: auto;
+
+text-align: center;
+}
+.simple_wrapper h2{
+    
+margin-bottom: 20px;
+    
+font-weight: 400;
+}
+.simple_wrapper p{
+    
+font-size: 16px;
+    
+color: #999999;
+}
+.feature_section{
+
+padding: 70px 0;
+
+background: #f9f9f9;
+}
+.feature_wrapper{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+}
+.feature{
+
+width: 30%;
+
+text-align: center;
+}
+.feature h3{
+    margin: 10px 0;
+}
+.feature p{
+
+color: #999999;
+}
+.icon_box{
+
+height: 60px;
+
+width: 60px;
+
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+0,48baff+50,5fc3ff+50,5fc3ff+100 */
+background: linear-gradient(to right,  #48baff 0%,#48baff 50%,#5fc3ff 50%,#5fc3ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+color: #fff;
+
+font-size: 25px;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+margin: auto;
+}
+.portfolio_section{
+
+background: #f9f9f9;
+
+padding: 50px 0;
+}
+.wrapper{
+
+width: 80%;
+
+margin: auto;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.heading h1{
+    
+}
+.heading p{
+    
+}
+.portfolio_item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.design{
+    width: 32%;
+    margin-bottom: 10px;
+    position: relative;
+}
+.design::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background-color: #049dfc;
+    left: 0;
+    top: 0;
+    opacity: .5;
+    transition: .4s all ease-in-out
+}
+.design:hover::after{
+    width: 100%;
+}
+.design img{
+    width: 100%;
+}
+.form_bg{
+    background-image: url(../images/form_bg.png);
+    min-height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* padding: 2px 0; */
+    width: 100%;
+}
+.form_bg::after{
+
+}
+.main_form{
+
+width: 40%;
+
+margin: auto;
+
+padding: 50px;
+}
+.title{
+
+text-align: center;
+}
+.title h1{
+
+color: #fff;
+
+font-size: 30px;
+
+font-weight: 500;
+
+margin-bottom: 10px;
+}
+.title p{
+
+color: #f9f9f9;
+
+font-size: 15px;
+
+padding-bottom: 20px;
+}
+.main_form form{
+}
+.main_form form input{
+
+background: transparent;
+
+width: 100%;
+
+padding: 15px 5px;
+
+margin-bottom: 15px;
+
+border: 1px solid #dedede;
+
+font-size: 15px;
+
+border-radius: 3px;
+}
+
+.form form input[type="submit"]{
+    
+}
+
+.main_form form textarea{
+
+background: transparent;
+
+width: 100%;
+
+padding: 15px 5px;
+
+margin-bottom: 15px;
+
+border: 1px solid #dedede;
+
+font-size: 15px;
+
+border-radius: 3px;
+}
+.check_box{
+
+width: 100%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+padding: 0px 0;
+
+align-items: center;
+}
+.subscribe{
+
+width: 40%;
+
+color: #f9f9f9;
+
+font-size: 15px;
+}
+.subscribe input{
+}
+.send_button{
+
+width: 20%;
+}
+.send_button input{
+    background: transparent;
+    border: none;color: #fff;
+    border: 1px solid #15a4fa;
+    padding: 10px 10px;
+    font-size: 14px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .4s all ease-in-out;
+}
+.send_button input:hover{
+    background:#15a4fa;
+}
+footer{
+
+background: #f9f9f9;
+
+padding: 50px 0;
+}
+.footer_content{
+    
+width: 80%;
+    
+margin: auto;
+    
+display: flex;
+    
+justify-content: space-between;
+}
+.terms{
+
+}
+.terms ul{
+    
+list-style: none;
+}
+.terms ul li{text-decoration: none;}
+.terms ul li a{
+    
+text-transform: capitalize;
+    
+text-decoration: none;
+color: #999999;
+}
+.social_icon{
+    font-size: 20px;
+
+}
+.social_icon ul{
+    
+list-style: none;
+    
+display: flex;
+}
+.social_icon ul li{
+    
+margin-left: 15px;
+}
+.social_icon ul li a{
+
+}
